@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj": {}
+    "D:\\KiemTra\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj": {}
   },
   "projects": {
-    "D:\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj": {
+    "D:\\KiemTra\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj",
+        "projectUniqueName": "D:\\KiemTra\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj",
         "projectName": "P32_119000930_NguyenVanHuyHoang",
-        "projectPath": "D:\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj",
-        "packagesPath": "C:\\Users\\PDH\\.nuget\\packages\\",
-        "outputPath": "D:\\P32_119000930_NguyenVanHuyHoang\\obj\\",
+        "projectPath": "D:\\KiemTra\\P32_119000930_NguyenVanHuyHoang\\P32_119000930_NguyenVanHuyHoang.csproj",
+        "packagesPath": "C:\\Users\\nvhh2\\.nuget\\packages\\",
+        "outputPath": "D:\\KiemTra\\P32_119000930_NguyenVanHuyHoang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PDH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nvhh2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
